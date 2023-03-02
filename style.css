@@ -1,0 +1,50 @@
+body {
+  color: aliceblue;
+}
+
+h1 {
+  font-family: Lilita One;
+}
+
+.abc {
+
+  background: rgba(56, 94, 136, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.nibba {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.topnav a {
+
+  background: rgba(98, 161, 231, 0.28);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  font-family: 'Courier New';
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #5182e4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #5182e4;
+  color: black;
+}
